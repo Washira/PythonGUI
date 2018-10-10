@@ -10,7 +10,11 @@ edit = (48,31) #assume "edit" button is position as x=48 y=31
 pyautogui.click(edit)
 pyautogui.moveTo(option) #move cursor from "edit" to "option"
 #define function
-def movemouse():
+def moveMouse():
 	pyautogui.click(edit)
 	pyautogui.moveTo(option)
-	print('Mouse is Moving')
+	print('Mouse is moving')
+#access the moveMouse function
+moveMouse()
+''' cursor is controlled to click edit button, move to option button and give 
+"Mouse is moving" to step by step '''
